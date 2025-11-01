@@ -6,24 +6,24 @@ Date:   Fri Oct 31 21:43:06 2025 -0400
 
 commit 5d9801c4d7666f9b211f1d8c1212313ade6f189b
 Author: Arnav Satish Gawas <asg7201@rit.edu>
-Date:   Fri Oct 31 21:37:26 2025 -0400
+Date:   Fri Oct 31 21:06:26 2025 -0400
 
-    scaffoled most of the functions
+    implemeted most of the functions
 
 commit 43cd11565d1e08a28cf2a301a5a0c130be83ed1c
 Author: Arnav Satish Gawas <asg7201@rit.edu>
-Date:   Fri Oct 31 21:26:13 2025 -0400
+Date:   Fri Oct 31 18:06:13 2025 -0400
 
     Implemeted a mat_create
 
 commit 96e5daaf2aa6fd50f6dd070c5574faac638948c0
 Author: Arnav Satish Gawas <asg7201@rit.edu>
-Date:   Fri Oct 31 21:19:00 2025 -0400
+Date:   Fri Oct 31 17:19:00 2025 -0400
 
     Initial Commit
 
 commit 3b91d7d2661c32f6238f9d1c5dbf98bdeb271deb
 Author: Arnav Satish Gawas <asg7201@rit.edu>
-Date:   Fri Oct 31 21:17:02 2025 -0400
+Date:   Fri Oct 31 17:17:02 2025 -0400
 
     inital commit
