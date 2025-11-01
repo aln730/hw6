@@ -1,0 +1,15 @@
+# Object files and binaries
+*.o
+a.out
+mtest
+mtest*
+
+# Build files
+Makefile
+header.mak
+
+# Provided files (DO NOT SUBMIT)
+Matrix.h
+mtest*.c
+stdout.*
+RUN
