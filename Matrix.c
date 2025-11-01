@@ -113,3 +113,76 @@ Matrix mat_mult(const Matrix m1, const Matrix m2) {
 
     return result;
 }
+
+Status mat_get_cell(const Matrix mat, float *data, size_t row, size_t col) {
+    if (!mat || !data)
+        return BadRowNumber;
+    if (row < 1 || row > mat->rows)
+        return BadRowNumber;
+    if (col < 1 || col > mat->cols)
+        return BadColNumber;
+
+    *data = mat->data[INDEX(mat, row, col)];
+    return Success;
+}
+
+Status mat_get_row(const Matrix mat, float data[], size_t row) {
+    if (!mat || !data)
+        return BadRowNumber;
+    if (row < 1 || row > mat->rows)
+        return BadRowNumber;
+
+    for (size_t j = 1; j <= mat->cols; j++)
+        data[j - 1] = mat->data[INDEX(mat, row, j)];
+
+    return Success;
+}
+
+Status mat_set_cell(Matrix mat, float value, size_t row, size_t col) {
+    if (!mat)
+        return BadRowNumber;
+    if (row < 1 || row > mat->rows)
+        return BadRowNumber;
+    if (col < 1 || col > mat->cols)
+        return BadColNumber;
+
+    mat->data[INDEX(mat, row, col)] = value;
+    return Success;
+}
+
+
+Status mat_set_row(Matrix mat, const float data[], size_t row) {
+    if (!mat || !data)
+        return BadRowNumber;
+    if (row < 1 || row > mat->rows)
+        return BadRowNumber;
+
+    for (size_t j = 1; j <= mat->cols; j++)
+        mat->data[INDEX(mat, row, j)] = data[j - 1];
+
+    return Success;
+}
+
+Matrix mat_transpose(const Matrix mat) {
+    if (!mat) return NULL;
+
+    Matrix t = mat_create(mat->cols, mat->rows);
+    if (!t) return NULL;
+
+    for (size_t i = 1; i <= mat->rows; i++)
+        for (size_t j = 1; j <= mat->cols; j++)
+            t->data[INDEX(t, j, i)] = mat->data[INDEX(mat, i, j)];
+
+    return t;
+}
+
+void mat_print(const Matrix mat, FILE *stream) {
+    if (!mat || !stream) return;
+
+    fprintf(stream, "%zu rows, %zu columns:\n", mat->rows, mat->cols);
+    for (size_t i = 1; i <= mat->rows; i++) {
+        for (size_t j = 1; j <= mat->cols; j++)
+            fprintf(stream, "%8.3f", mat->data[INDEX(mat, i, j)]);
+        fprintf(stream, "\n");
+    }
+}
