@@ -1,3 +1,83 @@
+commit 894f92ae76e397c194e41a7095c6837de03961d7
+Author: Arnav Satish Gawas <asg7201@rit.edu>
+Date:   Fri Oct 31 22:02:03 2025 -0400
+
+    Passed all the testcases
+
+commit 210d4f256b5971827d96e3d56660399d8f7f136d
+Author: AGawas <arnavgawas707@gmail.com>
+Date:   Fri Oct 31 21:57:48 2025 -0400
+
+    Delete mtest6.c
+
+commit 0e41e39be56fcd6c59e7cc10f352e460e468f309
+Author: AGawas <arnavgawas707@gmail.com>
+Date:   Fri Oct 31 21:57:39 2025 -0400
+
+    Delete mtest7.c
+
+commit 86ca4fb0137d8b1d158e3ec1dbf46f45f9f44c3b
+Author: AGawas <arnavgawas707@gmail.com>
+Date:   Fri Oct 31 21:57:29 2025 -0400
+
+    Delete mtest5.c
+
+commit cdf48e6143bc2d64f6487ddb10c6886f85be0adc
+Author: AGawas <arnavgawas707@gmail.com>
+Date:   Fri Oct 31 21:56:44 2025 -0400
+
+    Delete mtest4.c
+
+commit 22a658d23e729cd510a63f84abb10ec9e4caf8ad
+Author: AGawas <arnavgawas707@gmail.com>
+Date:   Fri Oct 31 21:56:35 2025 -0400
+
+    Delete mtest3.c
+
+commit fbff25889ebe5878bde7f2fadea81b486c60b257
+Author: AGawas <arnavgawas707@gmail.com>
+Date:   Fri Oct 31 21:56:18 2025 -0400
+
+    Delete mtest2.c
+
+commit ae98ab16208cf46cce4048170511510ebc1e9faf
+Author: AGawas <arnavgawas707@gmail.com>
+Date:   Fri Oct 31 21:56:10 2025 -0400
+
+    Delete mtest1.c
+
+commit 6b630ef1f81ecdf6945b0f6dac10cc7b06c88700
+Author: AGawas <arnavgawas707@gmail.com>
+Date:   Fri Oct 31 21:55:59 2025 -0400
+
+    Delete header.mak
+
+commit 4beb3e5e7ed2d5e6dc5c55865fd191ec858d0ae5
+Author: AGawas <arnavgawas707@gmail.com>
+Date:   Fri Oct 31 21:55:34 2025 -0400
+
+    Delete Matrix.h
+
+commit 48e3fef47efc6f5e550aba6183d9df37f464e6d6
+Author: Arnav Satish Gawas <asg7201@rit.edu>
+Date:   Fri Oct 31 21:49:51 2025 -0400
+
+    Stop tracking generated files
+
+commit fc4fafa3a0a342903a343050647d7863c0be3d5d
+Author: AGawas <arnavgawas707@gmail.com>
+Date:   Fri Oct 31 21:47:08 2025 -0400
+
+    Fix spelling errors in revisions.txt
+    
+    Corrected spelling errors in commit messages and dates.
+
+commit 8bb6ab97e34f3c81a6552288b63ace8df0b55cbd
+Author: Arnav Satish Gawas <asg7201@rit.edu>
+Date:   Fri Oct 31 21:45:09 2025 -0400
+
+    added revisions.txt
+
 commit bf591e44510336a8356fa3ab605106283913e6af
 Author: Arnav Satish Gawas <asg7201@rit.edu>
 Date:   Fri Oct 31 21:43:06 2025 -0400
@@ -6,24 +86,24 @@ Date:   Fri Oct 31 21:43:06 2025 -0400
 
 commit 5d9801c4d7666f9b211f1d8c1212313ade6f189b
 Author: Arnav Satish Gawas <asg7201@rit.edu>
-Date:   Fri Oct 31 21:06:26 2025 -0400
+Date:   Fri Oct 31 21:37:26 2025 -0400
 
-    implemeted most of the functions
+    scaffoled most of the functions
 
 commit 43cd11565d1e08a28cf2a301a5a0c130be83ed1c
 Author: Arnav Satish Gawas <asg7201@rit.edu>
-Date:   Fri Oct 31 18:06:13 2025 -0400
+Date:   Fri Oct 31 21:26:13 2025 -0400
 
     Implemeted a mat_create
 
 commit 96e5daaf2aa6fd50f6dd070c5574faac638948c0
 Author: Arnav Satish Gawas <asg7201@rit.edu>
-Date:   Fri Oct 31 17:19:00 2025 -0400
+Date:   Fri Oct 31 21:19:00 2025 -0400
 
     Initial Commit
 
 commit 3b91d7d2661c32f6238f9d1c5dbf98bdeb271deb
 Author: Arnav Satish Gawas <asg7201@rit.edu>
-Date:   Fri Oct 31 17:17:02 2025 -0400
+Date:   Fri Oct 31 21:17:02 2025 -0400
 
     inital commit
