@@ -1,4 +1,5 @@
 // File: Matrix.c
+// // Implementation of Matrix ADT
 // Author: Arnav Gawas
 
 #include "Matrix.h"
@@ -114,6 +115,7 @@ Matrix mat_mult(const Matrix m1, const Matrix m2) {
     return result;
 }
 
+//Get Cell Function
 Status mat_get_cell(const Matrix mat, float *data, size_t row, size_t col) {
     if (!mat || !data)
         return BadRowNumber;
@@ -126,6 +128,7 @@ Status mat_get_cell(const Matrix mat, float *data, size_t row, size_t col) {
     return Success;
 }
 
+//Get Row Function
 Status mat_get_row(const Matrix mat, float data[], size_t row) {
     if (!mat || !data)
         return BadRowNumber;
@@ -138,6 +141,7 @@ Status mat_get_row(const Matrix mat, float data[], size_t row) {
     return Success;
 }
 
+// Set single cell value
 Status mat_set_cell(Matrix mat, float value, size_t row, size_t col) {
     if (!mat)
         return BadRowNumber;
@@ -150,7 +154,7 @@ Status mat_set_cell(Matrix mat, float value, size_t row, size_t col) {
     return Success;
 }
 
-
+// Set entire row
 Status mat_set_row(Matrix mat, const float data[], size_t row) {
     if (!mat || !data)
         return BadRowNumber;
@@ -163,6 +167,8 @@ Status mat_set_row(Matrix mat, const float data[], size_t row) {
     return Success;
 }
 
+
+// Transpose matrix
 Matrix mat_transpose(const Matrix mat) {
     if (!mat) return NULL;
 
@@ -176,6 +182,8 @@ Matrix mat_transpose(const Matrix mat) {
     return t;
 }
 
+
+// Print matrix to stream
 void mat_print(const Matrix mat, FILE *stream) {
     if (!mat || !stream) return;
 
